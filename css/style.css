@@ -55,6 +55,11 @@ footer {
   vertical-align: center;
 
 }
+.large-button1:hover {
+  background-color: #0099cc;
+  
+
+}
 
 /* ghost button large */
 .large-button2 {
@@ -73,6 +78,11 @@ footer {
   text-align: center;
   vertical-align: center;
 }
+.large-button2:hover {
+  background-color: #6979F8;
+  color: #fff;
+
+}
 
 
 
@@ -89,6 +99,11 @@ footer {
   line-height: 50px;
   text-align: center;
   vertical-align: center;
+}
+.large-button3:hover {
+  background-color: #0099cc;
+  
+
 }
 
 
@@ -114,10 +129,15 @@ footer {
   text-align: center;
   vertical-align: center;
 }
+.small-button1:hover {
+  background-color: #0099cc;
+  
+
+}
 
 /* ghost button small */
 .small-button2 {
-  background: rgb(255, 255, 255);
+  background: #ffffff;
   border: 2px solid #6979F8;
   border-radius: 6px;
   padding: 10px 10px;
@@ -131,6 +151,11 @@ footer {
   line-height: 18px;
   text-align: center;
   vertical-align: center;
+}
+.small-button2:hover {
+  background-color: #6979F8;
+  color: #fff;
+
 }
 
 /* other buttons */
@@ -146,6 +171,11 @@ footer {
   height: 48px;
   line-height: 50px;
   vertical-align: center;
+
+}
+.other-button1:hover {
+  background-color: #0099cc;
+
 }
 
 /* testing psuedo-code bullshit */
@@ -160,6 +190,7 @@ footer {
   height: 14px;
 
 } */
+
 
 
 /* messing around buttons */
@@ -178,6 +209,7 @@ footer {
   background-color: #0099cc;
 
 }
+
 
 /* Hover state animation applied here */
 .button:hover {
