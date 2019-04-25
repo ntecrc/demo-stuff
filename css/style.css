@@ -15,9 +15,9 @@ body {
 }
 
 nav {
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  width: auto;
+  display: inline-block;
+  background-color: rgb(240, 231, 231);
+  width: 100%;
   padding: 50px;
   /* overflow: hidden; */
 
@@ -43,22 +43,21 @@ footer {
 .large-button1 {
   background: #6979F8;
   border-radius: 6px;
-  padding: 10px 60px;
+  border: 2px solid #6979F8;
   color: #fff;
   text-decoration: none;
   font-size: 1.25em;
-  margin: 0 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: 343px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: center;
+  max-width: 343px;
+  width: 100%;
+  cursor: pointer;
+  padding: 30px 30px;
 
 }
+
 .large-button1:hover {
   background-color: #0099cc;
-  
-
+  border: 2px solid #0099cc;
 }
 
 /* ghost button large */
@@ -66,18 +65,18 @@ footer {
   background: rgb(255, 255, 255);
   border: 2px solid #6979F8;
   border-radius: 6px;
-  padding: 10px 60px;
   color: #6979F8;
   text-decoration: none;
   font-size: 1.25em;
   /* font is a little smaller for large-button2*/
-  margin: 0 15px;
+  /* margin: 0 15px; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: 343px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: center;
+  max-width: 345px;
+  width: 100%;
+  padding: 30px 30px;
+
 }
+
 .large-button2:hover {
   background-color: #6979F8;
   color: #fff;
@@ -89,21 +88,20 @@ footer {
 .large-button3 {
   background: #6979F8 url('../images/small-plus-icon.png') no-repeat center left 15.25%/ 4%;
   border-radius: 6px;
-  padding: 10px 60px;
+  border: 2px solid #6979F8;
   color: #fff;
   text-decoration: none;
-  font-size: 1.45em; /* font is a little bigger for large-button3*/  
-  margin: 0 15px;
+  font-size: 1.25em;
+  /* font is a little bigger for large-button3*/
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: 343px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: center;
+  max-width: 345px;
+  width: 100%;
+  padding: 30px 30px;
 }
+
 .large-button3:hover {
   background-color: #0099cc;
-  
-
+  border: 2px solid #0099cc;
 }
 
 
@@ -114,24 +112,21 @@ footer {
 .small-button1 {
   background: #6979F8;
   border-radius: 6px;
-  padding: 10px 10px;
+  border: 2px solid #6979F8;
   color: #fff;
   text-decoration: none;
   font-size: 13px;
-  margin: 0 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: 180px;
-  height: 40px;
-  /* adjusts the positioning on the screen */
-  /* left: calc(50% - 84px/2);
-  top: calc(50% - 18px/2); */
-  line-height: 18px;
-  text-align: center;
-  vertical-align: center;
+  max-width: 180px;
+  width: 100%;
+  padding: 18px;
+
 }
+
 .small-button1:hover {
   background-color: #0099cc;
-  
+  border: 2px solid #0099cc;
+
 
 }
 
@@ -140,18 +135,15 @@ footer {
   background: #ffffff;
   border: 2px solid #6979F8;
   border-radius: 6px;
-  padding: 10px 10px;
   color: #6979F8;
   text-decoration: none;
   font-size: 13px;
-  margin: 0 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: 180px;
-  height: 40px;
-  line-height: 18px;
-  text-align: center;
-  vertical-align: center;
+  max-width: 180px;
+  width: 100%;
+  padding: 18px;
 }
+
 .small-button2:hover {
   background-color: #6979F8;
   color: #fff;
@@ -162,19 +154,19 @@ footer {
 .other-button1 {
   background: #6979F8 url('../images/arrow-small.png') no-repeat center 50%/ 20%;
   border-radius: 16px;
-  padding: 0px 30px;
+  border: 2px solid #6979F8;
   color: #fff;
   text-decoration: none;
-  margin: 0 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: 48px;
-  height: 48px;
-  line-height: 50px;
-  vertical-align: center;
+  max-width: 48px;
+  width: 100%;
+  padding: 18px;
 
 }
+
 .other-button1:hover {
   background-color: #0099cc;
+  border: 2px solid #0099cc;
 
 }
 
@@ -193,17 +185,16 @@ footer {
 
 
 
-/* messing around buttons */
+/* messing around buttons 
 .button {
   background: #8E7EFB;
   border-radius: 100px;
-  padding: 10px 60px;
   color: #fff;
   text-decoration: none;
   font-size: 1.45em;
-  margin: 0 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
+  
+}*/
 
 .button:hover {
   background-color: #0099cc;
